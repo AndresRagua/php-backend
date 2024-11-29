@@ -1,8 +1,8 @@
 {
-    "name": "willi/gestion_inventario",
+    "name": "andres/gestion_inventario",
     "autoload": {
         "psr-4": {
-            "Willi\\GestionInventario\\": "src/",
+            "Andres\\GestionInventario\\": "src/",
             "Utils\\": "src/Utils/",
             "Controller\\": "src/Controller/",
             "Model\\": "src/Model/"
@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "WJSA",
-            "email": "williamjserranoa@outlook.com"
+            "email": "andresragua19@gmail.com"
         }
     ],
     "require": {
