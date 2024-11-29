@@ -1,0 +1,21 @@
+{
+    "name": "willi/gestion_inventario",
+    "autoload": {
+        "psr-4": {
+            "Willi\\GestionInventario\\": "src/",
+            "Utils\\": "src/Utils/",
+            "Controller\\": "src/Controller/",
+            "Model\\": "src/Model/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WJSA",
+            "email": "williamjserranoa@outlook.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10"
+    }
+}
