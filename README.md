@@ -1,3 +1,58 @@
+# 📦 PHP Backend - API REST  
+🚀 **Backend ligero en PHP** para gestionar productos, inventario y categorías. Este proyecto sigue una arquitectura **MVC** e incluye controladores, modelos y un sistema de enrutamiento propio.
+
+## ✨ Características  
+✅ Desarrollado en **PHP** con estructura modular  
+✅ Uso de **Composer** para la gestión de dependencias  
+✅ **Sistema de enrutamiento** personalizado en `Router.php`  
+✅ **Conexión a base de datos** centralizada en `Database.php`  
+✅ **Pruebas unitarias** en `tests/` para garantizar calidad del código  
+✅ **Punto de entrada seguro** en `public/index.php`  
+
+## 📂 Estructura del Proyecto  
+```bash
+php-backend-master/
+│── public/                 # Punto de entrada de la aplicación  
+│── src/                    
+│   ├── Controller/         # Lógica de negocio (controladores)  
+│   ├── Model/              # Modelos de datos  
+│   ├── Utils/              # Utilidades (BD, respuestas, router)  
+│── tests/                  # Pruebas unitarias  
+│── composer.json           # Dependencias de Composer  
+│── README.md               # Documentación del proyecto  
+```
+
+## ⚡ Instalación y Uso  
+### 1️⃣ Clona el repositorio  
+```bash
+git clone https://github.com/tu-usuario/php-backend.git
+cd php-backend
+```
+
+### 2️⃣ Instala las dependencias  
+```bash
+composer install
+```
+
+### 3️⃣ Configura el archivo **`.env`** con los datos de la base de datos  
+
+### 4️⃣ Inicia el servidor  
+```bash
+php -S localhost:8000 -t public
+```
+
+### 5️⃣ ¡Listo! Ahora puedes probar la API desde `http://localhost:8000`
+
+## 🔥 Contribuciones  
+¡Las contribuciones son bienvenidas! Si encuentras un error o quieres mejorar el código, abre un **issue** o envía un **pull request**. 🚀
+
+
+
+
+
+## Creacion de la base de datos de prueba
+
+
 Creaccion de la base de datos:
 
 CREATE TABLE users (
